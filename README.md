@@ -1,9 +1,3 @@
----
-layout: page
-title: "Accueil"
-permalink: /
----
-
 # Aurélie Fréchet - Développeuse R/RShiny
 
 Data Scientist diplômée en 2017, je travaille avec R sans interruption depuis son apprentissage durant ma formation. Manipulation de données, modélisation, datavisualisation, création de packages ou d'applications : c'est cet éventail de possibilités qui me passionne et me permet de réaliser des projets dans des domaines variés : pharmaceutique, transports, organisations gouvernementales, bancaire, énergies...

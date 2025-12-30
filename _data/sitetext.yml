@@ -1,0 +1,274 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# French (default)
+# ------
+fr: &DEFAULT_FR
+  header:
+    title: Aurélie Fréchet
+    text: Développeuse R/RShiny
+    button: En savoir plus
+    buttonlink: "#services"
+
+  about:
+    title: "À propos de moi"
+    body: "Data Scientist diplômée en 2017, je travaille avec R sans interruption depuis son apprentissage durant ma formation. Manipulation de données, modélisation, datavisualisation, création de packages ou d'applications : c'est cet éventail de possibilités qui me passionne et me permet de réaliser des projets dans des domaines variés : pharmaceutique, transports, organisations gouvernementales, bancaire, énergies...
+    Mon objectif ? Répondre à vos problématiques de façon pertinente et sur-mesure. Prendre le temps de développer de façon pérenne, optimisée et transmissible à vos futurs développeurs et mes pairs."
+    section: about
+
+ #services:
+ #  title: "ExpeRte à votre service"
+ #  text: "Je travaille à mon compte au travers de ma société dataRtist — je suis très douée pour trouver des noms de projets."
+ #  section: services
+ #  list:
+ #    - title: "Analyse comportementale et segmentation"
+ #      desc: ""
+ #      icon: fas fa-table #find more at https://fontawesome.com/icons
+ #    - title: "Migration SAS vers R"
+ #      desc: "R (ggplot, data.table, tidyverse, R Markdown)"
+ #      icon: fas fa-registered
+ #    - title: "Applications interactives et dashboards"
+ #      desc: "RShiny"
+ #      icon: fas fa-chart-line
+ #    - title: "Optimisation et industrialisation de code"
+ #      desc: ""
+ #      icon: fas fa-space-shuttle
+
+  portfolio:
+    title: "Portfolio"
+    text: "Expériences et projets marquants"
+    section: portfolio
+    closebutton: "Fermer"
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "AFD"
+        logo: assets/img/clients/afd.png
+      - title: "EDF"
+        logo: assets/img/clients/edf.png
+      - title: "SNCF"
+        logo: assets/img/clients/sncf.png
+      - title: "Fortuneo"
+        logo: assets/img/clients/fortuneo.jpg
+      - title: "INSEE"
+        logo: assets/img/clients/insee.jpg
+      - title: "MSD"
+        logo: assets/img/clients/msd.png
+      - title: "Sanofi"
+        logo: assets/img/clients/sanofi.png
+      - title: "UCB"
+        logo: assets/img/clients/ucb.png
+
+  timeline:
+    title: "DataRtist en 5 ans"
+    text: "Formation & Expériences"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Création de l'entreprise"
+        year: "2020"
+        desc: "Création de l'entreprise à une date pas vraiment optimale... Février 2020. Heureusement l'INSEE fut mon premier client pour de l'accompagnement et création de package SAS vers R. Fin d'année avec Fortunéo où j'ai optimisé des codes et ai transféré des applications de RShiny vers Tableau et vice-versa."
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Entre client et enseignement"
+        year: "2021"
+        desc: "Introduction à la Statistique, cours de R, de Datavisualisation ou encore de SQL. De 2019 à 2022 j'enseigne à la fois à NEOMA Business School mais aussi à l'ENSAI où j'encadre des projets. En parallèle l'INSEE me recontacte pour industrialiser une application mise en place lors de la précédente mission."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Déménagement à Rennes"
+        year: "2022"
+        desc: "Et oui, maintenant 100% en télétravail (ou presque). Mission avec UCB à Bruxelles dans le projet sera de créer une application RShiny associée à un package leur permettant de visualiser les statistiques produites avant de générer automatiquement leur rapport."
+        image: assets/img/timeline/4.jpg
+      - title: "Première mission longue"
+        year: "2023"
+        desc: "Mission de 1 an chez Sanofi. Production d'application RShiny."
+        image: assets/img/timeline/4.jpg
+        alt: image alt text
+      - title: "Travail avec l'international"
+        year: "2024-2025"
+        desc: "Chez MSD, équipe de tout horizons, langue principalement parlée étant l'anglais. Création et amélioration de package destiné à être utilisé par les biostatisticien pour générer leurs modèles et obtenirs les résultats directement sous forme de rapport."
+        image: assets/img/timeline/4.jpg
+        alt:
+
+  faq:
+    title: "FAQ"
+    text: "Foire Aux Questions"
+    section: faq
+    list:
+      - question: "Pourquoi R ?"
+        answer: "Dans la logique Open Source, les connaissances appartiennent à tous, tout le monde peut contribuer. De plus en plus de choses sont possibles grâce à cela. Passerelle parfaite entre les stats et les infos."
+      - question: "Que préfères-tu faire dans ton métier ?"
+        answer: "Deux choses : l'optimisation de programmes & packages avec amélioration continue des scripts existants. Et la datavisualisation, énorme passion ! Quand j'étais plus jeune, j'hésitais entre le Web Design et les Statistiques — aujourd'hui j'ai le bonheur de pouvoir faire un mélange des deux. RShiny ❤️"
+      - question: "Tu sais faire du SAS ?"
+        answer: "Oui, MAIS. Mes connaissances en SAS m'aident à communiquer avec mes collègues programmeurs et les aider à faire des transitions SAS vers R. Je travaille également sur un package qui aide à la retranscription d'un code à l'autre."
+      - question: "Tu utilises quand même l'IA ?"
+        answer: "Oui. Malheureusement c'est devenu un outil dont personne ne peut se passer car il fait économiser beaucoup de temps. Il faut tout de même en avoir une utilisation réfléchie. Le corriger prend parfois plus de temps que de coder soi-même."
+      - question: "Tu es parfaite, quelle est ta faiblesse ?"
+        answer: "Les réunions longues — j'ai un fort risque de m'endormir même si le sujet est très intéressant... Sauf si je peux faire du crochet en même temps pour rester concentrée."
+      - question: "C'est donc pour ça qu'il y a de la laine sur ton bureau ?"
+        answer: "Faire du crochet m'aide à réfléchir et me poser afin de prendre du recul sur la résolution de problèmes complexes. Canaliser mon cerveau qui tourne à pleine vitesse."
+      - question: "C'est quoi ta morning routine ?"
+        answer: "8h : promenade canine — 9h : boire du thé — 9h10 : coder — 10h : boire du thé — 10h10 : coder en buvant du thé — 12h : j'ai faim."
+      - question: "Tu penses à t'hydrater ?"
+        answer: "Oui le plus possible, mais tu devrais le faire aussi."
+
+  contact:
+    title: "Contactez-moi"
+    text: "Localisation : Rennes, 100% télétravail ou présentiel mensuel éventuel sous conditions."
+    section: contact
+    name: "Nom*"
+    name-validation: "Veuillez entrer votre nom."
+    email: "Email*"
+    email-validation: "Veuillez entrer votre adresse email."
+    phone: "Numéro de téléphone"
+    phone-validation: "Veuillez entrer votre numéro de téléphone."
+    message: "Message*"
+    message-validation: "Veuillez écrire un message."
+    subject: "Soumission du formulaire de contact"
+    submit: "Envoyer le Message"
+
+  footer:
+    legal: "Politique de Confidentialité"
+    social:
+      - url: https://www.linkedin.com/in/aur%C3%A9lie-frechet-51407061/
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/AurelieFrechet
+        icon: "fab fa-github"
+fr-FR:
+  <<: *DEFAULT_FR
+fr-CA:
+  <<: *DEFAULT_FR
+
+# English
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Welcome to our Studio!
+    text: It's Nice To Meet You
+    button: Tell Me More
+    buttonlink: "#services"
+
+  about:
+    title: "About Us"
+    text: "our story"
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: about
+
+#services:
+#  title: "Services"
+#  text: "Lorem ipsum"
+#  section: services
+#  list:
+#    - title: "E-Commerce"
+#      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#      icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+#    - title: "Responsive Design"
+#      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+#      icon: fas fa-laptop
+#    - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+#      desc: "Your description here, full **Markdown** support"
+#      icon: fab fa-markdown
+#
+  portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    closebutton: "Close Project"
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  timeline:
+    title: "Timeline"
+    text: "Lorem ipsum timeline"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Our Humble Beginnings"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "An Agency is Born"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Jekyll Theme is created"
+        year: "2019"
+        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Title"
+        year: "2009-2011"
+        desc: "Your description here, **Markdown** is fully supported."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+  faq:
+    title: "FAQ"
+    text: "Frequently Asked Questions"
+    section: faq
+    list:
+      - question: "Good question ?"
+        answer: "Awesome answer !"
+
+  contact:
+    title: "Contact Us"
+    text: "Lorem ipsum or call 123456789"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://www.linkedin.com/in/aur%C3%A9lie-frechet-51407061/
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/AurelieFrechet
+        icon: "fab fa-github"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
